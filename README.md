@@ -10,17 +10,19 @@ Certain material type is well categorized by its surface characteristics such as
 ## Proposed Methods
 
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/96943196/203363466-9996f236-e39b-4869-9f8e-77828ec238e1.png">
-- MSTH-Net encodes view-independent comprehensive multi-scale textures and their hierarchy.
-  - MSTH-Net Part1 : Take both entire and salient features from each layer.
-	- MSTH-Net part2 : Enhance the salient features and build texture hierarchy.
-- For the multi-view environment, multi-view MSTH-Net(Figure 4. (b)) is constructed by collecting as many texture extractors (part 1) as the number of views MaterialNet accepts.
+
+- **MSTH-Net** encodes view-independent comprehensive multi-scale textures and their hierarchy.
+	- **MSTH-Net Part1** : Take both entire and salient features from each layer.
+	- **MSTH-Net part2** : Enhance the salient features and build texture hierarchy.
+- For the multi-view environment, **multi-view MSTH-Net(Figure 4. (b))** is constructed by collecting as many texture extractors (part 1) as the number of views MaterialNet accepts.
 
 
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/96943196/203363538-21f1f35f-0fca-4fbb-9275-635fc803ceb6.png">
-- MVSR-Net encodes view-specific features revealing surface reflectance of a material type
-- Dual MaterialNet (Figure 5. (c)) : combination of MaterialNet and diff-MaterialNet.
-	- MaterialNet (Figure 5. (a)) : combination of MSTH-Net and MVSR-Net 
-	- Diff-MaterialNet (Figure 5. (b)) : network that has the same structure as MaterialNet, but receives a difference images of every two consecutive color images aligned by affine transformation before subtraction
+
+- **MVSR-Net** encodes view-specific features revealing surface reflectance of a material type
+- **Dual MaterialNet (Figure 5. (c))** : combination of MaterialNet and diff-MaterialNet.
+	- **MaterialNet (Figure 5. (a))** : combination of MSTH-Net and MVSR-Net 
+	- **Diff-MaterialNet (Figure 5. (b))** : network that has the same structure as MaterialNet, but receives a difference images of every two consecutive color images aligned by affine transformation before subtraction
 
 
 ## Poster
