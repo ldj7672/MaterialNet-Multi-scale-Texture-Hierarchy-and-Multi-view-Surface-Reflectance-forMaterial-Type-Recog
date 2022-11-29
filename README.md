@@ -30,3 +30,11 @@ Certain material type is well categorized by its surface characteristics such as
 <img width="100%" src="https://user-images.githubusercontent.com/96943196/203357728-96254970-413e-4515-8767-5f552a1af12f.png"/>
 
 ## Citation
+	@inproceedings{LEE_2022_BMVC,
+	author    = {DONGJIN LEE and Seungkyu Lee},
+	title     = {MaterialNet: Multi-scale Texture Hierarchy and Multi-view Surface Reflectance for Material Type Recognition},
+	booktitle = {33rd British Machine Vision Conference 2022, {BMVC} 2022, London, UK, November 21-24, 2022},
+	publisher = {{BMVA} Press},
+	year      = {2022},
+	url       = {https://bmvc2022.mpi-inf.mpg.de/0361.pdf}
+	}
