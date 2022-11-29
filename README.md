@@ -1,5 +1,5 @@
 # MaterialNet-Multi-scale-Texture-Hierarchy-and-Multi-view-Surface-Reflectance-forMaterial-Type-Recog
-- MaterialNet: Multi-scale Texture Hierarchy and Multi-view Surface Reflectance forMaterial Type Recognition
+- [MaterialNet: Multi-scale Texture Hierarchy and Multi-view Surface Reflectance forMaterial Type Recognition](https://bmvc2022.mpi-inf.mpg.de/361/)
 - **Dongjin Lee**, Hyun-Cheol Kim, Jeongil Seo, Seungkyu Lee
 
 ## Motivation
